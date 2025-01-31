@@ -26,22 +26,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define USE_SERIAL_PD2
 
-/*#define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"*/
-/*// #define OLED_UPDATE_INTERVAL 5 //update OLED every 5ms*/
-/*#define OLED_BRIGHTNESS 185 //SET OLED BRIGHTNESS DIMMER (255 MAX)*/
-/**/
-/**/
-/**/
-/* From miryoku config */
 // default but used in macros
 #undef TAPPING_TERM
 #define TAPPING_TERM 175
 
-// Prevent normal rollover on alphas from accidentally triggering mods.
-/*#define IGNORE_MOD_TAP_INTERRUPT*/
-
-// Enable rapid switch from tap to hold, disables double tap hold auto-repeat.
-#define TAPPING_FORCE_HOLD
+// used to this behavior simply for backspace + immediate number (where num is layer on backspace button)
+#undef QUICK_TAP_TERM
+#define QUICK_TAP_TERM 0
 
 // Auto Shift
 #define NO_AUTO_SHIFT_ALPHA
