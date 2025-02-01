@@ -152,7 +152,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 
-/*****     Tap-Hold Utilities     *****/
+/*****     Tap-Hold Utilities & Custom Keycodes    *****/
 /*
 Functionality for Tap or Hold.
 Specifically for the use cases of:
