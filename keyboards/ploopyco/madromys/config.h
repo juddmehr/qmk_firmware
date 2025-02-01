@@ -30,3 +30,18 @@
 #define SPI_SCK_PIN GP2
 #define SPI_MISO_PIN GP0
 #define SPI_MOSI_PIN GP7
+
+// Judd's custom stuff
+#define TAPPING_TERM 175
+
+/**********************/
+/**** DPI SETTINGS ****/
+/**********************/
+
+#define PLOOPY_DPI_OPTIONS { 10000, 100 }
+#define PLOOPY_DPI_DEFAULT 0
+/*The `DPI_CONFIG` macro will cycle through the values in the array, each time you hit it.  And it stores this value in persistent memory, so it will load it the next time the device powers up.*/
+/*#define PLOOPY_DRAGSCROLL_MOMENTARY*/
+#define PLOOPY_DRAGSCROLL_DIVISOR_H 100.0
+#define PLOOPY_DRAGSCROLL_DIVISOR_V 100.0
+#define PLOOPY_DRAGSCROLL_INVERT
