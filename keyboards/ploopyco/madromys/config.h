@@ -32,7 +32,7 @@
 #define SPI_MOSI_PIN GP7
 
 // Judd's custom stuff
-#define TAPPING_TERM 175
+#define TAPPING_TERM 200
 
 /**********************/
 /**** DPI SETTINGS ****/
@@ -45,3 +45,5 @@
 #define PLOOPY_DRAGSCROLL_DIVISOR_H 375.0
 #define PLOOPY_DRAGSCROLL_DIVISOR_V 375.0
 #define PLOOPY_DRAGSCROLL_INVERT
+
+#define PLOOPY_SCROLL_DEBOUNCE 0
